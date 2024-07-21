@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông Tin Tour Du Lịch</title>
+    <link rel="stylesheet" href="info.css">
+</head>
+<body>
+    <header>
+        <h1>Tour Du Lịch Vịnh Hạ Long</h1>
+        <p>Khám phá vẻ đẹp thiên nhiên kỳ vĩ của Vịnh Hạ Long với các tour du lịch hấp dẫn.</p>
+    </header>
+
+    <section class="tour-info">
+        <h2>Chi Tiết Tour</h2>
+        <p>Thời gian: 3 ngày 2 đêm</p>
+        <p>Phương tiện: Du thuyền, xe đưa đón</p>
+        <p>Khởi hành: Hàng ngày</p>
+        <img src="img/dia-diem-du-lich-ha-long.jpg" alt="Vịnh Hạ Long">
+    </section>
+
+    <section class="itinerary">
+        <h2>Lịch Trình Tour</h2>
+        <h3>Ngày 1: Hà Nội - Hạ Long</h3>
+        <ul>
+            <li>07:30: Đón khách tại Hà Nội</li>
+            <li>12:00: Đến Hạ Long, lên du thuyền</li>
+            <li>13:00: Ăn trưa trên du thuyền</li>
+            <li>14:30: Tham quan hang Đầu Gỗ</li>
+            <li>18:00: Ăn tối và nghỉ ngơi trên du thuyền</li>
+        </ul>
+        <h3>Ngày 2: Khám Phá Vịnh Hạ Long</h3>
+        <ul>
+            <li>07:00: Ăn sáng</li>
+            <li>08:00: Chèo thuyền kayak</li>
+            <li>12:00: Ăn trưa trên du thuyền</li>
+            <li>15:00: Tham quan làng chài</li>
+            <li>19:00: Ăn tối và nghỉ ngơi trên du thuyền</li>
+        </ul>
+        <h3>Ngày 3: Hạ Long - Hà Nội</h3>
+        <ul>
+            <li>07:00: Ăn sáng</li>
+            <li>08:00: Thăm hang Sửng Sốt</li>
+            <li>12:00: Trở về Hà Nội</li>
+        </ul>
+    </section>
+
+    <section class="pricing">
+        <h2>Giá Tour</h2>
+        <p>Giá: 5,000,000 VND/người</p>
+        <p>Giá bao gồm:</p>
+        <ul>
+            <li>Phí vận chuyển</li>
+            <li>Phí du thuyền</li>
+            <li>Bữa ăn theo lịch trình</li>
+            <li>Vé tham quan</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Liên Hệ Đặt Tour</h2>
+        <form action="/submit" method="post">
+            <label for="name">Họ và Tên:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Số Điện Thoại:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="tour-date">Ngày Khởi Hành:</label>
+            <input type="date" id="tour-date" name="tour-date" required>
+
+            <button type="submit">Đặt Tour</button>
+        </form>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 Du Lịch Vịnh Hạ Long. All rights reserved.</p>
+    </footer>
+</body>
+</html>
